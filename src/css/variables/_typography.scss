@@ -1,0 +1,23 @@
+// Variables > Typography
+
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@0;1&display=swap');
+
+// Variable Fonts
+@font-face {
+  font-family: "Work Sans";
+  src: url(../../fonts/worksans-wght.woff2);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url(../../fonts/worksans-wght.woff2);
+  font-weight: normal;
+  font-style: italic;
+}
+
+// Font Variables
+$primary-font:'Work Sans', Helvetica, sans-serif;
+$secondary-font: 'Space Mono', monospace;
