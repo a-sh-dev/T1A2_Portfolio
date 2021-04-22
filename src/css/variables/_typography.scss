@@ -1,23 +1,45 @@
-// Variables > Typography
+// 2_variables > typography
 
-// Google Fonts
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@0;1&display=swap');
+@use 'fonts' as *;
+@use 'colors' as *;
 
-// Variable Fonts
-@font-face {
-  font-family: "Work Sans";
-  src: url(../../fonts/worksans-wght.woff2);
-  font-weight: normal;
-  font-style: normal;
+// @use 'colors' as *;
+
+
+
+// * Typography
+
+$padding-main: 1.3rem;
+
+html {
+  font-family: $main-font;
+  color: $dark-color;
 }
 
-@font-face {
-  font-family: "Work Sans";
-  src: url(../../fonts/worksans-wght.woff2);
-  font-weight: normal;
+// #main-wrapper {
+
+// }
+
+.shorten-line {
+  letter-spacing: -0.2rem;
+}
+
+// ** Highlighted Text
+
+@mixin highlight-text {
+  font-family: $mono-font;
   font-style: italic;
+  padding: 0.5em 1em;
+  text-align: center;
+  display: inline-block;
+  // width: fit-content;
 }
 
-// Font Variables
-$primary-font:'Work Sans', Helvetica, sans-serif;
-$secondary-font: 'Space Mono', monospace;
+.hero__highlight-text {
+  @include highlight-text;
+  margin: 1.35em 0; 
+}
+
+.hl-teal {
+  background-color: $teal;
+}

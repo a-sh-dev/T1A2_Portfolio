@@ -1,0 +1,25 @@
+// layout > main
+
+main {
+  background-color: rgba(lightpink, 0.3);
+  height: 100%;
+  width: 99%;
+  margin: 0 auto;
+}
+
+// default is mobile-first 
+
+.hero {
+
+  &__title {
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+  
+  &__subtitle {
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+
+}
