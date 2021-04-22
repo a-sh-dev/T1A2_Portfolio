@@ -4,6 +4,8 @@
 @use '../variables' as *;
 
 
+
+
 nav {
   
   & ul {
@@ -16,15 +18,17 @@ nav {
   }
 }
 
+
 .main-nav {
   position: sticky;
+  width: 100%;
   top: 0;
   display: flex;
   align-items: center;
   margin-bottom: 15%;
 
   &__logo {
-    width: 80px;
+    width: 68px;
   }
 
   &__menu {
