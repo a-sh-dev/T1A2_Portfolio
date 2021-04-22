@@ -1,10 +1,8 @@
 // layout > footer
 
+@use '../variables' as *;
+
 // ** Footer - main-footer
-
-// footer {
-
-// }
 
 footer {
   background-color: rgba(teal, 0.1);
@@ -21,24 +19,29 @@ footer {
 
 
 .main-footer {
-  position: sticky;
-  bottom: 0;
+  // position: sticky;
+  // bottom: 0;
   margin: 0 auto;
-  align-self: flex-end;
-  overflow: scroll;
+  // align-self: flex-end;
+  // overflow: scroll;
 
   &__socmed {
     text-align: center;
-    margin: 5% auto;
-    font-size: 1.5rem;
+    margin: 10%;
+    font-size: 1.25em;
   }
 
-  &__signature p {
-    font-size: 10px;
-
-    
+  &__signature{
+    margin: 0 auto;
   }
+}
 
+.signature {
+  font-family: $mono-font;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
 }
 
 

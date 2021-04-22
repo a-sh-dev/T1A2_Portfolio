@@ -9,7 +9,14 @@
 
 // * Typography
 
+// Mobile first
 $padding-main: 1.3rem;
+
+// Medium-screen
+$padding-med: 2rem;
+
+// large-screen
+$padding-lrg: 5rem;
 
 html {
   font-family: $main-font;

@@ -1,11 +1,19 @@
 // abstracts > mediaquiries
 
-// @mixin medium-screen {
-//   @media screen and (max-width: 1007px);
-//   @content;
-// }
+@mixin xs-screen {
+  @media screen and (min-width: 320px) and (max-width: 640px) {
+    @content;
+  }
+}
 
-// @mixin large-screen {
-//   @media screen and (min-width: 1008px);
-//   @content;
-// }
+@mixin medium-screen {
+  @media screen and (min-width: 641px) and (max-width: 1007px) {
+    @content;
+  }
+}
+
+@mixin large-screen {
+  @media screen and (min-width: 1008px) {
+    @content;
+  }
+}
