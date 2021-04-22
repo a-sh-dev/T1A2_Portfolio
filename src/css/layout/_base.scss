@@ -1,0 +1,40 @@
+// layout > base
+
+@use '../abstracts' as *;
+@use '../variables' as *;
+@use '../components' as *;
+
+html {
+  background-color: $base-color;
+  height: 100%;
+  overflow: scroll;
+}
+
+// !! Can't seem to position a background at the bottom of the page
+// #main-wrapper {
+//   background-color: $base-color;
+
+//   &__bg {
+//     background-image: url("../../img/bg_footer_cloud_02t_blue_2560x1081.gif");
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     height: 50vw;
+//     position: absolute;
+//     bottom: 0;
+//   }
+
+// }
+
+#meta-wrapper {
+  padding: $padding-main;
+  overflow: scroll;
+}
+
+#wrapper {
+  background-color: rgba(lightyellow, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  overflow: auto;
+}

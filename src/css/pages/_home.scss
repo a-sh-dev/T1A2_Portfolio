@@ -1,0 +1,10 @@
+// 6_pages > home
+
+@use '../abstracts' as *;
+@use '../variables' as *;
+@use '../layout' as *;
+@use '../components' as *;
+
+* {
+  border: 1px solid rgba(grey, 0.3);
+}

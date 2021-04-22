@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+html {
+  font-family: "Work Sans", Helvetica, sans-serif;
+  color: #5d686d;
+}
+
+.shorten-line {
+  letter-spacing: -0.2rem;
+}
+
+.hero__highlight-text {
+  font-family: "Space Mono", monospace;
+  font-style: italic;
+  padding: 0.5em 1em;
+  text-align: center;
+  display: inline-block;
+  margin: 1.35em 0;
+}
+
+.hl-teal {
+  background-color: #c0d8d5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: rgba(0, 128, 128, 0.1);
+}
+footer ul {
+  margin: 0 auto;
+}
+footer li {
+  list-style: none;
+  display: inline-block;
+}
+
+.main-footer {
+  position: sticky;
+  bottom: 0;
+  margin: 0 auto;
+  align-self: flex-end;
+  overflow: scroll;
+}
+.main-footer__socmed {
+  text-align: center;
+  margin: 5% auto;
+  font-size: 1.5rem;
+}
+.main-footer__signature p {
+  font-size: 10px;
+}
+
+main {
+  background-color: rgba(255, 182, 193, 0.3);
+  height: 100%;
+  width: 99%;
+  margin: 0 auto;
+}
+
+.hero__title {
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+}
+.hero__subtitle {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+nav ul {
+  margin: 0 auto;
+}
+nav li {
+  list-style: none;
+  display: inline-block;
+}
+
+.main-nav {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15%;
+}
+.main-nav__logo {
+  width: 80px;
+}
+.main-nav__menu {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.main-nav__menu-item {
+  border: 1px solid lightgrey;
+  width: 35px;
+  margin-left: 2.5%;
+}
+.main-nav__menu-item:first-child {
+  margin-left: 0;
+}
+
+.hr-line {
+  height: 1px;
+  flex: 1;
+  background-color: #5d686d;
+}
+.hr-line-nav {
+  margin: auto 1em;
+}
+.hr-line-hero {
+  width: 50px;
+  margin: 1.5em 0;
+}
+
+.fab {
+  color: #5d686d;
+}
+
+html {
+  background-color: #e4dfd7;
+  height: 100%;
+  overflow: scroll;
+}
+
+#meta-wrapper {
+  padding: 1.3rem;
+  overflow: scroll;
+}
+
+#wrapper {
+  background-color: rgba(255, 255, 224, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  overflow: auto;
+}
+
+* {
+  border: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+/*# sourceMappingURL=style.css.map */

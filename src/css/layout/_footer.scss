@@ -1,0 +1,44 @@
+// layout > footer
+
+// ** Footer - main-footer
+
+// footer {
+
+// }
+
+footer {
+  background-color: rgba(teal, 0.1);
+
+  & ul {
+      margin: 0 auto;
+    }
+  
+  & li {
+    list-style: none;
+    display: inline-block;
+  }
+}
+
+
+.main-footer {
+  position: sticky;
+  bottom: 0;
+  margin: 0 auto;
+  align-self: flex-end;
+  overflow: scroll;
+
+  &__socmed {
+    text-align: center;
+    margin: 5% auto;
+    font-size: 1.5rem;
+  }
+
+  &__signature p {
+    font-size: 10px;
+
+    
+  }
+
+}
+
+

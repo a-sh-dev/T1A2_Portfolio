@@ -1,0 +1,30 @@
+// 2_variables > fonts
+
+// Google Fonts Import
+// * Sans-Serif font - Work Sans: 400, 600, 800 with italics
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap');
+
+// * Mono-type font - Space Mono: 400, 700 with italics
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+// Variable Fonts (to be hosted locally)
+// !! Will be implemented one day!
+
+// @font-face {
+//   font-family: "";
+//   src: url(../../fonts/-);
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: "";
+//   src: url(../../fonts/-);
+//   font-weight: normal;
+//   font-style: italic;
+// }
+
+// * Font Variables - parent fonts
+$main-font: 'Work Sans', Helvetica, sans-serif; // Primary font
+$sub-font: ''; // Secondary (subsidiary/supporting) font
+$mono-font: 'Space Mono', monospace; // Caption font
