@@ -6,13 +6,13 @@
   }
 }
 
-@mixin medium-screen {
+@mixin med-screen {
   @media screen and (min-width: 641px) and (max-width: 1007px) {
     @content;
   }
 }
 
-@mixin large-screen {
+@mixin lrg-screen {
   @media screen and (min-width: 1008px) {
     @content;
   }

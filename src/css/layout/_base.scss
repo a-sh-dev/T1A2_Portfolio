@@ -5,12 +5,11 @@
 @use '../components' as *;
 
 
-html body {
+html {
   background-color: $base-color;
-  scroll-behavior: smooth;
-  // height: 100vh;
-  // overflow: scroll;
+  // scroll-behavior: smooth;
 }
+
 
 // !! Can't seem to position a background at the bottom of the page
 // #main-wrapper {
@@ -31,35 +30,35 @@ html body {
 //     // BG
 //     background-image: url("../../img/bg_footer_cloud_01t_warm_2560x1081.gif");
 //     background-repeat: no-repeat;
-//     background-position-y: bottom;
+//     background-position: bottom;
 //     background-size: cover;
 //     background-attachment: scroll;
 // }
 
-#meta-wrapper {
-  padding: $padding-main;
-  height: 100vh;
-  width: 100vw;
-  // overflow: scroll;
-}
-
-#wrapper {
-  background-color: rgba(lightyellow, 0.3);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-  // overflow: scroll;
-}
 
 .grid-wrapper {
   // for preview only
   // background-color: rgba(lightyellow, 0.3);
   //
-  padding: 3%;
+  padding: $padding-main;
   padding-top: 0;
-  max-height: 100%;
   // grid layout
   display: grid;
-  grid-template-rows: repeat(auto-fit, minmax(10%, 1fr, 20%));
+  grid-template-rows: repeat(4, 120px, 1fr, 1fr, 10%);
+  grid-template-columns: 1fr;
+
+  @include med-screen {
+    padding: $padding-med;
+    padding-top: 0;
+  }
+
+  @include lrg-screen {
+    padding: $padding-lrg;
+    padding-top: 0;
+  }  
+
+}
+
+#grid-wrapper {
+  min-height: 100vh;
 }

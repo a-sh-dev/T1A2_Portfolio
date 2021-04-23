@@ -21,13 +21,29 @@ nav {
 // ** TOP-C NAVIGATION top-c__nav
 // top-c container is in header
 
+// ** based on = mobile first < med < lrg screen
+// !! Sadly can't use calc() for media quieries!
+$logo-size: 70px;
+$menu-item-size: 38px;
+
+
+
 .top-c__nav {
   display: flex;
   // justify-content: flex-start;
   // align-items: center;
 
   &-logo {
-    width: 68px;
+    width: $logo-size;
+
+    @include med-screen {
+      width: 100px;
+    }
+
+    @include lrg-screen {
+      width: 120px;
+    }
+
   }
 
   &-menu {
@@ -37,8 +53,16 @@ nav {
 
   &-menu__item {
     border: 1px solid lightgrey;
-    width: 35px;
-    margin-left: 2.5%;
+    width: $menu-item-size;
+    margin-left: 0.5rem;
+
+    @include med-screen {
+      width: 45px;
+    }
+
+    @include lrg-screen {
+      width: 54px;
+    }
 
     &:first-child {
       margin-left: 0;

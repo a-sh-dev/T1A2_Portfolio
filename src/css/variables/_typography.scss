@@ -2,8 +2,7 @@
 
 @use 'fonts' as *;
 @use 'colors' as *;
-
-// @use 'colors' as *;
+// @use '../abstracts' as *;
 
 
 
@@ -40,12 +39,21 @@ html {
   margin: 1.35em 0;
   transform: rotate(-1.5deg);
   font-size: 0.85rem; 
-  // width: fit-content;
+
 }
 
 .hl-txt--teal {
   @include hl-txt;
   background-color: $teal;
+
+  @media screen and (min-width: 641px) and (max-width: 1007px) {
+    font-size: 1rem;
+  }
+
+  @media screen and (min-width: 1008px) {
+    font-size: 1.15rem;
+  }
+
 }
 
 
