@@ -3,3 +3,6 @@
 @use '../variables' as *;
 
 
+@mixin transition-std {
+  transition: $transition-std;
+}

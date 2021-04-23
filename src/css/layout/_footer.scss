@@ -18,17 +18,14 @@ footer {
 }
 
 
-.main-footer {
-  // position: sticky;
-  // bottom: 0;
+.btm-c {
   margin: 0 auto;
-  // align-self: flex-end;
-  // overflow: scroll;
+  width: 100%;
 
   &__socmed {
     text-align: center;
     margin: 10%;
-    font-size: 1.25em;
+    font-size: 1.4em;
   }
 
   &__signature{
@@ -37,8 +34,9 @@ footer {
 }
 
 .signature {
-  font-family: $mono-font;
-  font-size: 0.9em;
+  // font-family: $mono-font;
+  font-size: 10px;
+  font-weight: 600;
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 1px;
