@@ -9,7 +9,9 @@
 // * Base Typography
 
 // Mobile first
-$padding-main: 5%;
+$padding-main: 6%;
+
+$padding-xs: 1rem;
 
 // Medium-screen
 $padding-med: 2rem;
@@ -21,6 +23,8 @@ html {
   font-family: $main-font;
   color: $dark-color;
 }
+
+
 
 // ** Long em dash hack inside a paragraph
 
@@ -40,12 +44,6 @@ html {
   transform: rotate(-1.5deg);
   font-size: 0.85rem; 
 
-}
-
-.hl-txt--teal {
-  @include hl-txt;
-  background-color: $teal;
-
   @media screen and (min-width: 641px) and (max-width: 1007px) {
     font-size: 1rem;
   }
@@ -54,6 +52,16 @@ html {
     font-size: 1.15rem;
   }
 
+}
+
+.hl-txt--teal {
+  @include hl-txt;
+  background-color: $teal;
+}
+
+.hl-txt--olive {
+  @include hl-txt;
+  background-color: $olive;
 }
 
 
