@@ -3,3 +3,16 @@
 @use '../variables' as *;
 @use '../abstracts' as *;
 
+.btn-sqr-std  {
+  @include btn-sqr;
+  background-color: rgba(white, 1);
+  margin-bottom: 1.25rem;
+  margin-top: 0;
+
+  &:hover {
+    background-color: rgba($dark-color, 1);
+    // font-weight: 700;
+    color: white;
+    transition: $transition-std;
+  }
+}

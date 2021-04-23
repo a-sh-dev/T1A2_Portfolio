@@ -17,14 +17,37 @@ footer {
   }
 }
 
+// // * Footer - Bottom BG (attempt no 3)
+
+// .btm-bg {
+//     // BG
+//     min-height: 20vh;
+//     background-image: url("../../img/bg_footer_cloud_03t_beige_1560x659.gif");
+//     background-repeat: no-repeat;
+//     background-position: bottom;
+//     background-size: cover;
+//     background-attachment: scroll;
+//     z-index: -5;
+//     bottom: 0;
+// }
+
 
 .btm-c {
   margin: 0 auto;
   width: 100%;
+  // padding: $padding-main;
+  // display: flex;
+  // flex-direction: row;
+  // flex-wrap: wrap;
+  // justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  align-items: center;
+  justify-content: space-evenly;
 
   &__socmed {
     text-align: center;
-    margin: 10%;
+    margin: 5%;
     font-size: 1.4em;
   }
 

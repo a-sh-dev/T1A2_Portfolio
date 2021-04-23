@@ -7,7 +7,7 @@
 
 html {
   background-color: $base-color;
-  // scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 
@@ -26,26 +26,25 @@ html {
 
 // }
 
-// body {
-//     // BG
-//     background-image: url("../../img/bg_footer_cloud_01t_warm_2560x1081.gif");
-//     background-repeat: no-repeat;
-//     background-position: bottom;
-//     background-size: cover;
-//     background-attachment: scroll;
-// }
-
 
 .grid-wrapper {
   // for preview only
   // background-color: rgba(lightyellow, 0.3);
   //
-  padding: $padding-main;
+  min-height: 100vh;
+  min-width: 100%;
+  // padding: $padding-main;
   padding-top: 0;
   // grid layout
   display: grid;
-  grid-template-rows: repeat(4, 120px, 1fr, 1fr, 10%);
+  grid-template-rows: repeat(autofit, min-max(5%, 1fr, 1fr, 10%));
   grid-template-columns: 1fr;
+
+  
+  // @include xs-screen {
+  //   padding: $padding-xs;
+  // }
+
 
   @include med-screen {
     padding: $padding-med;
@@ -57,8 +56,4 @@ html {
     padding-top: 0;
   }  
 
-}
-
-#grid-wrapper {
-  min-height: 100vh;
 }

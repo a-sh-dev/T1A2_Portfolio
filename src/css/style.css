@@ -31,6 +31,28 @@ html {
   }
 }
 
+.hl-txt--olive {
+  font-family: "Space Mono", monospace;
+  font-style: italic;
+  padding: 0.5em 1em;
+  text-align: center;
+  display: inline-block;
+  margin: 1.35em 0;
+  transform: rotate(-1.5deg);
+  font-size: 0.85rem;
+  background-color: #dbd8b9;
+}
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+  .hl-txt--olive {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 1008px) {
+  .hl-txt--olive {
+    font-size: 1.15rem;
+  }
+}
+
 .test-lipsum {
   font-size: 1rem;
   line-height: 1.618;
@@ -56,10 +78,14 @@ footer li {
 .btm-c {
   margin: 0 auto;
   width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  align-items: center;
+  justify-content: space-evenly;
 }
 .btm-c__socmed {
   text-align: center;
-  margin: 10%;
+  margin: 5%;
   font-size: 1.4em;
 }
 .btm-c__signature {
@@ -76,10 +102,11 @@ footer li {
 
 .top-c {
   background-color: #e4dfd7;
-  padding: 15px 0;
+  padding: 15px 6%;
   position: sticky;
   top: 0;
   z-index: 20;
+  max-width: 100%;
 }
 
 main {
@@ -87,13 +114,14 @@ main {
 }
 
 #mid-c {
-  padding: 5%;
+  padding: 6%;
 }
 
 .mid-c__title {
   font-weight: 800;
   font-size: 2.5rem;
   line-height: 2.5rem;
+  margin-top: 3.5rem;
   margin-bottom: 2rem;
 }
 @media screen and (min-width: 641px) and (max-width: 1007px) {
@@ -127,6 +155,21 @@ main {
     font-size: 1.5rem;
     line-height: 2.3rem;
   }
+}
+.mid-c__body {
+  margin: 1.25rem auto;
+  line-height: 1.618;
+}
+.mid-c__body bold {
+  font-weight: 600;
+}
+
+.c-grid {
+  grid-template-rows: repeat(auto-fit, minmax(80px, 1fr));
+}
+.c-grid__col-right img {
+  width: 80%;
+  padding-left: 20%;
 }
 
 nav ul {
@@ -195,10 +238,28 @@ nav li {
 .main-nav__menu-item {
   border: 1px solid lightgrey;
   width: 35px;
-  margin-left: 2.5%;
+  margin-right: 2.5%;
 }
 .main-nav__menu-item:first-child {
   margin-left: 0;
+}
+
+.btn-sqr-std {
+  padding: 10px 1.5rem;
+  border: 1px solid #5d686d;
+  color: #5d686d;
+  font-family: "Space Mono", monospace;
+  text-decoration: none;
+  font-size: 14px;
+  display: inline-block;
+  background-color: white;
+  margin-bottom: 1.25rem;
+  margin-top: 0;
+}
+.btn-sqr-std:hover {
+  background-color: #5d686d;
+  color: white;
+  transition: all 0.3s ease-in-out;
 }
 
 .hr-line {
@@ -227,13 +288,15 @@ nav li {
 
 html {
   background-color: #e4dfd7;
+  scroll-behavior: smooth;
 }
 
 .grid-wrapper {
-  padding: 5%;
+  min-height: 100vh;
+  min-width: 100%;
   padding-top: 0;
   display: grid;
-  grid-template-rows: repeat(4, 120px, 1fr, 1fr, 10%);
+  grid-template-rows: repeat(autofit, min-max(5%, 1fr, 1fr, 10%));
   grid-template-columns: 1fr;
 }
 @media screen and (min-width: 641px) and (max-width: 1007px) {
@@ -247,10 +310,6 @@ html {
     padding: 5rem;
     padding-top: 0;
   }
-}
-
-#grid-wrapper {
-  min-height: 100vh;
 }
 
 * {
