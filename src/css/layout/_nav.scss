@@ -4,7 +4,7 @@
 @use '../variables' as *;
 
 
-
+// General settings
 
 nav {
   
@@ -18,6 +18,46 @@ nav {
   }
 }
 
+// ** TOP-C NAVIGATION top-c__nav
+// top-c container is in header
+
+.top-c__nav {
+  display: flex;
+  // justify-content: flex-start;
+  // align-items: center;
+
+  &-logo {
+    width: 68px;
+  }
+
+  &-menu {
+    display: flex;
+    align-items: center;
+  }
+
+  &-menu__item {
+    border: 1px solid lightgrey;
+    width: 35px;
+    margin-left: 2.5%;
+
+    &:first-child {
+      margin-left: 0;
+
+    // & img:hover {
+    //   @include transition-std;
+    //   transform: scale(1.5);
+    //   }
+  
+  // &-menu__item img:hover {
+  //   opacity: 0.5;
+  // }
+    
+    }
+  }
+}
+
+
+// Original flex layout attempt
 
 .main-nav {
   position: sticky;
@@ -47,4 +87,5 @@ nav {
     }
   }
 }
+
 

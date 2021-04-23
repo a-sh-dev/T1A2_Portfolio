@@ -7,10 +7,10 @@
 
 
 
-// * Typography
+// * Base Typography
 
 // Mobile first
-$padding-main: 1.3rem;
+$padding-main: 5%;
 
 // Medium-screen
 $padding-med: 2rem;
@@ -23,9 +23,7 @@ html {
   color: $dark-color;
 }
 
-// #main-wrapper {
-
-// }
+// ** Long em dash hack inside a paragraph
 
 .shorten-line {
   letter-spacing: -0.2rem;
@@ -33,20 +31,29 @@ html {
 
 // ** Highlighted Text
 
-@mixin highlight-text {
+@mixin hl-txt {
   font-family: $mono-font;
   font-style: italic;
   padding: 0.5em 1em;
   text-align: center;
   display: inline-block;
+  margin: 1.35em 0;
+  transform: rotate(-1.5deg);
+  font-size: 0.85rem; 
   // width: fit-content;
 }
 
-.hero__highlight-text {
-  @include highlight-text;
-  margin: 1.35em 0; 
+.hl-txt--teal {
+  @include hl-txt;
+  background-color: $teal;
 }
 
-.hl-teal {
-  background-color: $teal;
+
+
+
+// ** Testing purpose only
+
+.test-lipsum {
+  font-size: 1rem;
+  line-height: 1.618;
 }
