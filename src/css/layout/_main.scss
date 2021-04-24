@@ -45,7 +45,6 @@ main {
       font-size: 6rem;
       line-height: 6rem;
     }
-
   }
   
   &__subheading {
@@ -68,6 +67,13 @@ main {
     }
   }
 
+  // &__monosub {
+
+  //   font-family: $mono-font;
+  //   text-transform: uppercase;
+
+  // }
+
   &__body {
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
@@ -87,6 +93,93 @@ main {
       padding-right: 10%;
     }
   }
+}
+
+// * ASIDE – Journal latest post quick links
+
+.journal-menu-heading {
+
+  border-left: 1px solid $dark-color;
+  padding-left: $padding-main;
+
+  @include xs-screen {
+
+    border-left: 0;
+
+  }
+
+}
+
+.journal-menu {
+
+  border-left: 1px solid $dark-color;
+  padding-left: $padding-main;
+  list-style: none;
+  text-transform: capitalize;
+
+  // Hide in small screen
+
+  @include xs-screen {
+
+    display: none;
+
+  }
+
+  & a {
+
+    text-decoration: none;
+    color: rgba($dark-color, 1);
+    transition: $transition-std;
+
+    &:hover {
+      color: rgba($dark-color, 0.5);
+      transition: $transition-std;
+    }
+
+  }
+
+  &-short {
+
+    list-style: none;
+    display: block;
+    text-align: center;
+    font-size: 0.75rem;
+    padding: 1rem;
+    font-family: $mono-font;
+    // letter-spacing: 1px;
+    word-spacing: -0.25rem;
+    line-height: 2;
+
+    @include med-screen {
+
+      display: none;
+  
+    }
+
+    @include lrg-screen {
+
+      display: none;
+  
+    }
+
+    & a {
+
+      font-weight: 600;  
+      text-decoration: none;
+      color: rgba($dark-color, 1);
+      transition: $transition-std;
+  
+      &:hover {
+        color: rgba($dark-color, 0.5);
+        transition: $transition-std;
+      }
+    }
+
+  }
+
+
   
 }
+
+
 
