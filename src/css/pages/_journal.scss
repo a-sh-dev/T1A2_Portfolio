@@ -8,8 +8,31 @@
 // * JOURNAL POSTS / CARDS
 
 .journal-c {
-
+  max-width: 1200px;
   padding: 1.25rem;
+
+  // * Grid layout
+  display: grid;
+  grid-template-columns: 1fr;
+
+  @include med-screen {
+
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+    padding: $padding-med;
+
+  }
+
+  @include lrg-screen {
+
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+
+    padding: $padding-lrg;
+
+  }
+
 
   &__card-1-txt {
     padding: 1rem;
@@ -74,10 +97,20 @@
 
   // * CARD COLORS
 
-  &-teal { background-color: $teal; }
-  &-olive { background-color: $olive; }
-  &-pink { background-color: $pink; }
-  &-purple { background-color: $purple; }
-  &-cool-grey { background-color: $cool-grey; }
+  &-teal { background-color: rgba($teal, 1); }
+  &-olive { background-color: rgba($olive, 1); }
+  &-pink { background-color: rgba($pink, 1); }
+  &-purple { background-color: rgba($purple, 1); }
+  &-cool-grey { background-color: rgba($cool-grey, 1); }
 
 }
+
+// * Individual journal cards / posts
+
+// .grid-item {
+
+//   &__span-2 {
+//     ;
+//   }
+
+// }

@@ -101,6 +101,7 @@ main {
 
   border-left: 1px solid $dark-color;
   padding-left: $padding-main;
+  padding-top: 1rem;
 
   @include xs-screen {
 

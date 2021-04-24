@@ -81,7 +81,7 @@ footer li {
 }
 
 .btm-c {
-  margin: 0 auto;
+  margin: 1.5rem auto;
   width: 100%;
   padding: 6% 0;
   display: grid;
@@ -193,6 +193,7 @@ main {
 .journal-menu-heading {
   border-left: 1px solid #5d686d;
   padding-left: 6%;
+  padding-top: 1rem;
 }
 @media screen and (min-width: 320px) and (max-width: 640px) {
   .journal-menu-heading {
@@ -298,7 +299,7 @@ nav li {
   margin-left: 0;
 }
 
-.main-nav {
+.main-nav-old {
   position: sticky;
   width: 100%;
   top: 0;
@@ -306,20 +307,20 @@ nav li {
   align-items: center;
   margin-bottom: 15%;
 }
-.main-nav__logo {
+.main-nav-old__logo {
   width: 68px;
 }
-.main-nav__menu {
+.main-nav-old__menu {
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-.main-nav__menu-item {
+.main-nav-old__menu-item {
   border: 1px solid lightgrey;
   width: 35px;
   margin-right: 2.5%;
 }
-.main-nav__menu-item:first-child {
+.main-nav-old__menu-item:first-child {
   margin-left: 0;
 }
 
@@ -493,6 +494,9 @@ section ul {
   max-width: 85px;
 }
 
+.menu__item {
+  transition: all 0.3s;
+}
 .menu__item:hover {
   opacity: 0.85;
   transition: all 0.3s;
@@ -526,8 +530,20 @@ html {
     padding: 4rem;
   }
 }
+.c-grid__col-right {
+  align-self: end;
+}
+.c-grid-3col {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+@media screen and (min-width: 320px) and (max-width: 640px) {
+  .c-grid-3col {
+    grid-template-columns: 1fr;
+  }
+}
 .c-grid__col-span {
-  grid-column: span;
+  grid-column: span 3;
 }
 .c-grid__col-left {
   padding: 0 6%;
@@ -549,7 +565,24 @@ html {
 }
 
 .journal-c {
+  max-width: 1200px;
   padding: 1.25rem;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+  .journal-c {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 2rem;
+  }
+}
+@media screen and (min-width: 1008px) {
+  .journal-c {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    padding: 5rem;
+  }
 }
 .journal-c__card-1-txt {
   padding: 1rem;

@@ -85,10 +85,29 @@ html {
 
   }
 
+  &__col-right {
 
+    align-self: end;
 
+  }
+
+  // * 3 columns grid 
+  // * Used in journal top
+
+  &-3col {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    @include xs-screen {
+      grid-template-columns: 1fr;
+    }
+
+  }
+
+  
   &__col-span {
-    grid-column: span;
+    grid-column: span 3;
   }
 
   &__col-left {

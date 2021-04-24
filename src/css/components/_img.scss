@@ -46,9 +46,11 @@
 
 
 
-// * Nav menu__item
+// * Nav menu__item - transition
 
 .menu__item {
+
+  transition: $transition-std;
 
   &:hover {
     opacity: 0.85;
