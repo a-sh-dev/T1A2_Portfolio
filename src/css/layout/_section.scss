@@ -1,0 +1,95 @@
+// layout > section
+
+@use '../abstracts' as *;
+@use '../variables' as *;
+
+#sect-c {
+
+  padding: 0 $padding-main;
+  max-width: 100%;
+
+  // @include xs-screen {
+  //   padding: 0;
+  // }
+
+
+}
+
+section {
+  
+  & ul {
+    list-style: none;
+    margin-left: 2.25rem;
+  } 
+
+
+
+}
+
+// Sect-c Typography
+
+.sect-c {  
+  
+
+  @include med-screen {
+
+    padding: 2rem;
+  }
+
+  @include lrg-screen {
+    padding: 4rem;
+
+
+  }
+
+
+  &__subheading {
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+  }
+}
+
+
+.exp-list {
+  
+  & li {
+    margin-left: -0.5rem;
+    margin-bottom: 1rem;
+
+    &::marker {
+      content: "〰️   ";
+      
+    }
+
+  }
+
+  &__date {
+
+    font-family: $main-font;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    line-height: 1.618;
+
+  }
+
+  &__job {
+
+    line-height: 1.25;
+    font-size: 1.1rem;
+    font-weight: 600;
+
+    & em {
+      font-size: 1.25rem;
+      font-weight: 800;
+    }
+
+  }
+
+
+}
+

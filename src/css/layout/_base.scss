@@ -10,8 +10,7 @@ html {
   scroll-behavior: smooth;
 }
 
-
-// !! Can't seem to position a background at the bottom of the page
+// !! Revisit this later. Can't seem to position a background (the cloud bg) at the bottom of the page nor footer
 // #main-wrapper {
 //   background-color: $base-color;
 
@@ -26,34 +25,96 @@ html {
 
 // }
 
+// * The grand grid wrapper directly under <body>
 
-.grid-wrapper {
-  // for preview only
+.meta-c-grid {
+  
+  // bg-color below is for preview only
   // background-color: rgba(lightyellow, 0.3);
   //
   min-height: 100vh;
   min-width: 100%;
-  // padding: $padding-main;
-  padding-top: 0;
-  // grid layout
+  
+  // * grid layout
+  
   display: grid;
   grid-template-rows: repeat(autofit, min-max(5%, 1fr, 1fr, 10%));
   grid-template-columns: 1fr;
 
-  
+  // ! I think it's best not to apply a padding in the meta wrapper as it will cause overflow for the children – apply padding within children directly instead.  
   // @include xs-screen {
   //   padding: $padding-xs;
   // }
 
+  // @include med-screen {
+  //   padding: $padding-med;
+  //   padding-top: 0;
+  // }
+
+  // @include lrg-screen {
+  //   padding: $padding-lrg;
+  //   padding-top: 0;
+  // }  
+
+}
+
+// * Container Grid - standard is 2 columns
+
+.c-grid {
+
+  // bg-color below is for preview only
+  background-color: rgba(lightblue, 0.3);
+  //
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
+  // grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
+
+  // &__top {
+  //   // grid-column-start: span 2;
+  // }
 
   @include med-screen {
-    padding: $padding-med;
-    padding-top: 0;
+
+    padding: 2rem;
   }
 
   @include lrg-screen {
-    padding: $padding-lrg;
-    padding-top: 0;
-  }  
+    padding: 4rem;
+
+
+  }
+
+
+
+  &__col-span {
+    grid-column: span;
+  }
+
+  &__col-left {
+    padding: 0 $padding-main;
+  }
+  
+  // &__col-right {
+
+  //   padding-left: 2rem;
+
+  // }
+
+}
+
+
+.c-flex {
+
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  flex-wrap: wrap;
+
+}
+
+.skill-item {
+
+  flex: 0 1 auto;
 
 }

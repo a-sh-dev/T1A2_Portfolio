@@ -8,6 +8,7 @@
   background-color: rgba(white, 1);
   margin-bottom: 1.25rem;
   margin-top: 0;
+  transition: $transition-std;
 
   &:hover {
     background-color: rgba($dark-color, 1);
