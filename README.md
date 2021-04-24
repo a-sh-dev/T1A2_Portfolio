@@ -32,7 +32,7 @@ A link to the GitHub repo
 
 **Sitemap**
 
-![Original planned sitemap](https://uc23e5e522bf9d060ea03bb989e9.dl.dropboxusercontent.com/cd/0/inline/BNN-VIgLEKXX0z12LM2wNd1KDlWi0_3RKAZGXwx8SCk6ej2bDfbrlDTT0Cwm_LZoXt8U7kULY0V20Af64hTHkCJ-86FjztpuvsPcMViWMWvLmefIH_OFqJ9OvIgQSJNra1pfSGpsFlTjLgPmc94N0_sH/file#)
+![Original planned sitemap](./docs/images/original_sitemap.png)
 
 - Original planned sitemap. 
 - `work.html` is now postponed – overall number of link pages is still within the requirement, four including `index.html`
@@ -40,39 +40,21 @@ A link to the GitHub repo
 
 **Screenshots**
 
-![Trello](https://uc154b82bd2505832540f6f8928b.dl.dropboxusercontent.com/cd/0/inline/BNMqRCnI1iS4ukiLipSxso7jppfg9T1ONrkbcmBOTaMWrb-DbXvChKNVhpcZVds2P5rOqOE_pL0kYZzm_9uB5R--tEOcPoXzZf6KVT9VLN7cXeD4V3wtVAk93RVpwfPpgS88I-F5w8QAX0ff4Y6y6D4I/file#)
+![Trello](./docs/images/trello__.png)
+
+![Trello](./docs/images/trello.png)
+
+![Trello](./docs/images/trello_.png)
 
 - Trello screenshot – for project management.
 
-HOME – Mobile
 
 
+**Finished Website**
 
-Desktop
+![Desktop – Home](./docs/images/home_desktop.png)
 
-
-
-INFO - mobile
-
-
-
-Desktop
-
-
-
-JOURNAL - mobile
-
-
-
-Desktop
-
-
-
-CONTACT - mobile
-
-
-
-Desktop
+![Mobile – Home](./docs/images/home_mobile.png)
 
 - For more screenshots such as planning stage and so on, please refer to the presentation slides profided in the `ppt` folder.
 
