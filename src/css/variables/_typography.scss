@@ -42,7 +42,8 @@ html {
   display: inline-block;
   margin: 1.35em 0;
   transform: rotate(-1.5deg);
-  font-size: 0.85rem; 
+  font-size: 0.85rem;
+  margin-left: $padding-main; 
 
   @media screen and (min-width: 641px) and (max-width: 1007px) {
     font-size: 1rem;

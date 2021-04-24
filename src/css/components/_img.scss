@@ -1,0 +1,58 @@
+// components > img
+
+@use '../abstracts' as *;
+@use '../variables' as *;
+
+
+// * Object fit - img 
+
+.object-fit_contain {
+  width: 100%;
+  object-fit: contain;
+}
+
+// apply this placeholder directly into the div
+@mixin img-fit {
+  width: 90%;
+  object-fit: contain;
+}
+
+.profile-pic {
+  padding: $padding-main;
+
+  @include img-fit;
+
+  // ! Try this later - Change image on hover... below doesn't work! :(
+  // background: url("./img/il_ash_profile_600x693.png") no-repeat;
+  
+  // // hover change to smile
+  // &:hover {
+    
+  //   background: url("./img/il_ash_profile_smile_600x693.png") no-repeat;
+  
+  
+  @include lrg-screen {
+    width: 80%;
+    margin-left: $padding-lrg;
+  }
+}
+
+// SKills - items
+
+.skill-item {
+  @include img-fit;
+  max-width: 85px;
+}
+
+
+
+// * Nav menu__item
+
+.menu__item {
+
+  &:hover {
+    opacity: 0.85;
+    transition: $transition-std;
+  }
+
+}

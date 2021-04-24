@@ -35,7 +35,7 @@ footer {
 .btm-c {
   margin: 0 auto;
   width: 100%;
-  // padding: $padding-main;
+  padding: $padding-main 0;
   // display: flex;
   // flex-direction: row;
   // flex-wrap: wrap;
@@ -47,7 +47,7 @@ footer {
 
   &__socmed {
     text-align: center;
-    margin: 5%;
+    margin: 5% auto;
     font-size: 1.4em;
   }
 
