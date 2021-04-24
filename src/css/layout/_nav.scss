@@ -23,6 +23,7 @@ nav {
 
 // ** based on = mobile first < med < lrg screen
 // !! Sadly can't use calc() for media quieries!
+
 $logo-size: 70px;
 $menu-item-size: 38px;
 
@@ -83,7 +84,7 @@ $menu-item-size: 38px;
 
 // Original flex layout attempt
 
-.main-nav {
+.main-nav-old {
   position: sticky;
   width: 100%;
   top: 0;
@@ -92,7 +93,7 @@ $menu-item-size: 38px;
   margin-bottom: 15%;
 
   &__logo {
-    
+
     width: 68px;
   
 
