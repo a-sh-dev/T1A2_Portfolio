@@ -30,28 +30,34 @@
     
     <!-- MID / MIDDLE SECTION -->
     
-    <main id="mid-c">
-      <h1 class="mid-c__title">Let's get in touch</h1>
-      <div class="hr-line-short"></div>
-      <h2 class="mid-c__subheading">I would love to chat with you about anything! Please fill the form below and I will get back to you as soon as possible!</h2>
-      <span class="hl-txt--teal">chat with me, maybe?</span>
+    <main id="mid-c" class="mid-c__contact">
+      <div class="mid-c__contact-left">
+        <h1 class="mid-c__title">Let's get in touch</h1>
+        <div class="hr-line-short"></div>
+        <h2 class="mid-c__subheading">I would love to chat with you about anything! Please fill the form below and I will get back to you as soon as possible!</h2>
+        <span class="hl-txt--teal">chat with me, maybe?</span>
+      </div>
+      <figure class="mid-c__contact-right"><img src="img/il_cuppa_715x756.png" class="img-cuppa" alt="Cup of tea"></figure>
+
     </main>
 
     <!-- CONTACT FORM -->
 
     <section class="contact-form-c">
-      <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/meqvqylo" method="post">
-        <fieldset id="fs-frm-inputs">
-          <label for="full-name">Full Name</label>
-          <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-          <label for="email-address">Email Address</label>
-          <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-          <label for="message">Message</label>
-          <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
-          <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-        </fieldset>
-        <input type="submit" value="Submit">
-      </form>
+      <div class="form-c">
+        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/meqvqylo" method="post">
+          <fieldset id="fs-frm-inputs">
+            <label for="full-name">Full Name</label>
+            <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+            <label for="email-address">Email Address</label>
+            <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+            <label for="message">Message</label>
+            <textarea rows="5" name="message" id="message" placeholder="Hello!" required=""></textarea>
+            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+          </fieldset>
+          <input type="submit" value="Chat Soon!">
+        </form>
+      </div>
     </section>
     
     <!-- BOTTOM SECTION -->

@@ -34,6 +34,8 @@ html {
   //
   min-height: 100vh;
   min-width: 100%;
+
+  max-width: 1400px;
   
   // * grid layout
   
@@ -63,7 +65,7 @@ html {
 .c-grid {
 
   // bg-color below is for preview only
-  background-color: rgba(lightblue, 0.3);
+  // background-color: rgba(lightblue, 0.3);
   //
 
   display: grid;
@@ -77,6 +79,8 @@ html {
   @include med-screen {
 
     padding: 2rem;
+    grid-template-columns: 1fr;
+
   }
 
   @include lrg-screen {
@@ -87,7 +91,12 @@ html {
 
   &__col-right {
 
-    align-self: end;
+    align-self: center;
+
+    @include med-screen {
+      align-self: end;
+    }
+
 
   }
 
@@ -114,11 +123,11 @@ html {
     padding: 0 $padding-main;
   }
   
-  // &__col-right {
+  &__col-right {
 
-  //   padding-left: 2rem;
+    align-self: end;
 
-  // }
+  }
 
 }
 
@@ -141,3 +150,10 @@ html {
 // .c-flex-1col {
 
 // }
+
+.mid-c__contact {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+
+}
