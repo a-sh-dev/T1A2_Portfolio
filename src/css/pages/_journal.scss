@@ -4,3 +4,80 @@
 @use '../variables' as *;
 @use '../layout' as *;
 @use '../components' as *;
+
+// * JOURNAL POSTS / CARDS
+
+.journal-c {
+
+  padding: 1.25rem;
+
+  &__card-1-txt {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+
+    &__top {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+    &__btm {
+      display: inline-flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 1rem;
+    }
+
+  }
+
+}
+
+.hr-line-card {
+  margin: 0 0.8rem;
+}
+
+
+
+// * CARD - typography
+
+.card {
+
+  &-date {
+    font-family: $mono-font;
+    font-size: 1rem;
+    line-height: 1.618;
+  }
+
+  &-day {
+    font-size: 2rem;
+    font-family: $mono-font;
+    font-weight: 400;
+    
+  }
+  
+  &-title {
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    margin-top: 1rem;
+  }
+
+  &-title-small {
+    font-size: 1.15rem;
+
+  }
+
+  &-body {
+    line-height: 1.618;
+  }
+
+  // * CARD COLORS
+
+  &-teal { background-color: $teal; }
+  &-olive { background-color: $olive; }
+  &-pink { background-color: $pink; }
+  &-purple { background-color: $purple; }
+  &-cool-grey { background-color: $cool-grey; }
+
+}
