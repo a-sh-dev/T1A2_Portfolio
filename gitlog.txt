@@ -1,0 +1,95 @@
+commit dd518029f8fbaed41e9bac34e44dee3bd3b06813
+Author: “a-sh-dev” <“iam.angie@ymail.com”>
+Date:   Sun Apr 25 18:23:15 2021 +1000
+
+    Deploy website and update README
+
+commit 823bbb746ca30545ecdb1ed3909228ae9e6f3d69
+Author: “a-sh-dev” <“iam.angie@ymail.com”>
+Date:   Sun Apr 25 16:46:26 2021 +1000
+
+    Fix SRI integrity to all pages
+
+commit f58b247bc6130ee6c7f38d1733c44487cb60de01
+Author: “a-sh-dev” <“iam.angie@ymail.com”>
+Date:   Sun Apr 25 10:12:42 2021 +1000
+
+    Revert back to previous commit 1f7a82d due to issues with SRI
+
+commit ab9fc7e3440d5139ee5f88f615854872a16afc52
+Author: “a-sh-dev” <“iam.angie@ymail.com”>
+Date:   Sun Apr 25 03:50:12 2021 +1000
+
+    Add SRI integrity to all pages.
+
+commit 1f7a82d9f130fe21d021512e2b27881887b8d06d
+Author: “a-sh-dev” <“iam.angie@ymail.com”>
+Date:   Sun Apr 25 03:29:12 2021 +1000
+
+    Complete contact.html & check overal website to deploy.
+
+commit 880330ee79b22d8ddf860ae2ab761b3003f6a9ca
+Author: “a-sh-dev” <“iam.angie@ymail.com”>
+Date:   Sat Apr 24 23:36:14 2021 +1000
+
+    Implement grid layout to journal.html, update README
+
+commit 13cb67c72a296146a150d14ede794ed352b25ead
+Author: “a-sh-dev” <“iam.angie@ymail.com”>
+Date:   Sat Apr 24 21:26:07 2021 +1000
+
+    Add journal.html & stylise it before implementing  grid
+
+commit 39da8eb17921292a166e6aad75011dbb2b4d79a7
+Author: “a-sh-dev” <“iam.angie@ymail.com”>
+Date:   Sat Apr 24 17:06:38 2021 +1000
+
+    Finish info, padding tweaks needed. Issues with grid.
+
+commit 5065405a8de6ad36facef47dbe99765392efe771
+Author: “a-sh-dev” <“iam.angie@ymail.com”>
+Date:   Sat Apr 24 02:02:14 2021 +1000
+
+    Start info page and css styling
+
+commit e42f8954bce682095ec89a51e4ccdad9c470a17e
+Author: “a-sh-dev” <“iam.angie@ymail.com”>
+Date:   Fri Apr 23 18:47:35 2021 +1000
+
+    Add media-queries to home
+
+commit 36fdaaeb399276678cdafe4e866fb3572b49f296
+Author: “a-sh-dev” <“iam.angie@ymail.com”>
+Date:   Fri Apr 23 15:32:40 2021 +1000
+
+    Redo index with grid layout. Error with flex.
+
+commit 0559c3cacbc4e571a21ead0e366d7dae1e421c9a
+Author: “a-sh-dev” <“iam.angie@ymail.com”>
+Date:   Fri Apr 23 00:36:00 2021 +1000
+
+    Try to fix responsiveness on home, not successfull yet
+
+commit 2a0cad249a5e90b7280b86400343746902a13ba1
+Author: “a-sh-dev” <“iam.angie@ymail.com”>
+Date:   Thu Apr 22 21:41:42 2021 +1000
+
+    Style home mobile-first approach with scss
+
+commit 7973e627b9829abf459ebf32f34aa875473feb41
+Author: “a-sh-dev” <“iam.angie@ymail.com”>
+Date:   Wed Apr 21 00:25:32 2021 +1000
+
+    Optimise svg files
+
+commit ccc442df88ca666b6f7e7b90209973178b795615
+Author: “a-sh-dev” <“iam.angie@ymail.com”>
+Date:   Tue Apr 20 02:49:27 2021 +1000
+
+    Modify index html markup, change to svg files and set up initial sass variables
+
+commit 829caf6c2b7a392252c06348dfdc3d9d235ec1d9
+Author: “a-sh-dev” <“iam.angie@ymail.com”>
+Date:   Sun Apr 18 23:06:58 2021 +1000
+
+    Initial commit
