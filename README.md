@@ -12,7 +12,7 @@ https://a-sh-t1a2.netlify.app/
 
 [*Go to live website*](https://a-sh-t1a2.netlify.app/)
 
-A link to the GitHub repo
+A link to the GitHub repo 
 
 ```
 https://github.com/a-sh-dev/T1A2_Portfolio
