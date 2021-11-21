@@ -1,9 +1,9 @@
 // components > buttons
 
-@use '../variables' as *;
-@use '../abstracts' as *;
+@use "../variables" as *;
+@use "../abstracts" as *;
 
-.btn-sqr-std  {
+.btn-sqr-std {
   @include btn-sqr;
   background-color: rgba(white, 1);
   margin-bottom: 1.25rem;
@@ -18,7 +18,7 @@
   }
 }
 
-.btn-sqr-card  {
+.btn-sqr-card {
   @include btn-sqr;
   background-color: rgba(white, 0);
   margin-bottom: 0;
@@ -34,7 +34,6 @@
 }
 
 .btn-circle {
-
   @include btn-sqr;
   background-color: rgba(white, 0);
   border-radius: 50%;
@@ -47,5 +46,4 @@
     color: $dark-color;
     transition: $transition-std;
   }
-
 }

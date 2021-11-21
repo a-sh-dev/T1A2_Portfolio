@@ -1,9 +1,9 @@
 // Import all the pages from 6_pages
-// Since it's been 'forwarded' only 
+// Since it's been 'forwarded' only
 // the folder name is sufficient
 // @use 'abstracts';
 // @use 'variables';
 // @use 'layout';
 // @use 'components';
-// 5_others - consists of normalize.css that is linked directly on html
-@use 'pages';
+// others - consists of normalize.css that is linked directly on html
+@use "pages";
