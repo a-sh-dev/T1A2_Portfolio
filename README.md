@@ -1,6 +1,6 @@
-# T1A2 – Portofolio Project 
+# T1A2 – Portfolio Project 
 
-## Portfolio Project Documentation
+## Project Documentation
 
 <small>*The following documentation is based on the initial version (version 1) of this website*</small>
 
@@ -10,7 +10,7 @@ A link (URL) to published portfolio website:
 https://a-sh-t1a2.netlify.app/ 
 ```
 
-[*Go to live website*](https://a-sh-t1a2.netlify.app/)
+<a href="https://a-sh-t1a2.netlify.app/" target="_blank">Go to live website</a>
 
 A link to the GitHub repo 
 
