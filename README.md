@@ -24,8 +24,8 @@ https://github.com/a-sh-dev/T1A2_Portfolio
 
 - Showcase work for potential employers
 - Share journey and experience to the world as an aspiring full-stack developer who has graphic design background, and used to work a lot with front-end developers in the past.
-- As a platform for an ongoing project to continuously craft my coding skills (especially scss/css as I found things are challenging to be implemented – no wonder many developers actually dislike, and even hate graphic designers 😅).
-  - E.g. It's challenging to implement the exact positioning or the same exact look as the original high-fidelity mock-up. Hopefully as my skills grow, I can revisit the problems and fix them, and also to ***continously develop*** the portfolio.
+- As a platform for an ongoing project to continuously craft my coding skills (especially scss/css as I found things are challenging to be implemented – no wonder many developers actually dislike, and even hate graphic designers for being too 'pedantic' with their design mock-up 😅).
+  - E.g. It's challenging to implement the exact positioning or the same exact look as the original high-fidelity mock-up.
   - Front-end web development is more 'dynamic', especially in responsive layout as compared to static graphic design layout – therefore as a print designer I can truly empathise how challenging and more time consuming it is for developing the design into a website. I gain more respect now for Developers!
 
 ### **Functionality / Features**
