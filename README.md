@@ -2,6 +2,8 @@
 
 ## Project Documentation
 
+✨ <u>**Disclaimer:**</u> this porfolio is undergoing a re-development and re-polishing as soon as I can as I am in the middle of Coder Academy's final assessment. 
+
 <small>*The following documentation is based on the initial version (version 1) of this website*</small>
 
 A link (URL) to published portfolio website:
